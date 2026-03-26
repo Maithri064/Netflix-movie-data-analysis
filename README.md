@@ -4,16 +4,25 @@
 
 This project focuses on analyzing a Netflix movies dataset to uncover insights about movie trends, genres, popularity, and ratings. The goal is to perform data cleaning, transformation, and visualization to better understand patterns in the dataset.
 ## Technologies Used
-Python 🐍
+Python 
+
 Pandas (Data Cleaning & Analysis)
+
 NumPy
+
 Matplotlib & Seaborn (Data Visualization)
+
 Jupyter Notebook
+
 ## Data Cleaning Steps
 Loaded dataset using Pandas
+
 Checked dataset structure using .info() and .describe()
+
 Removed duplicate records
+
 Converted Release_Date to datetime and extracted year
+
 Dropped unnecessary columns:
 Overview
 Original_Language
@@ -22,9 +31,9 @@ Handled missing values using dropna()
 Split multiple genres and normalized data using explode()
 ## Feature Engineering
 Categorized Vote_Average into:
-Not Popular
-Below Average
-Average
+Not Popular,
+Below Average,
+Average,
 Popular
 ## Exploratory Data Analysis (EDA)
 1. Most Frequent Genre
